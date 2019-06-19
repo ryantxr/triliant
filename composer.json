@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "twilio/sdk": "^5.32",
-        "nesbot/carbon": "^1.3"
+        "nesbot/carbon": "^2.0.0"
     },
     "license": "MIT",
     "authors": [
@@ -19,11 +19,6 @@
         }
     },
     "minimum-stability": "dev",
-    "extra":{
-        "laravel":{
-            "providers":[
-                "Triliant\\ServiceProvider"
-            ]
-        }
+    "require-dev": {
     }
 }
