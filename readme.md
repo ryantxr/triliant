@@ -20,6 +20,10 @@ Add this to composer.json.
         }
     ]
 
+    "required" : [
+        "ryantxr/triliant":"dev-master"
+    ]
+
 Then
 
     composer update
