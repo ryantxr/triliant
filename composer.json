@@ -1,0 +1,22 @@
+{
+    "name": "ryantxr/triliant",
+    "description": "A twilio SDK wrapper.",
+    "type": "library",
+    "require": {
+        "twilio/sdk": "^5.32",
+        "nesbot/carbon": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ryantxr",
+            "email": "ryantxr@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Triliant\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
