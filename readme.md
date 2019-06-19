@@ -40,3 +40,22 @@ Then
 
 ## Laravel Integration
 
+Create a config file `config/sms.php` and put the following content into it.
+
+    return [
+
+        /*
+        |--------------------------------------------------------------------------
+        | Twilio configuration settings 
+        | (see src/config/sms.php)
+        |--------------------------------------------------------------------------
+        |
+        */
+
+        'twilio' => [
+            'default_from_number' => env('TWILIO_DEFAULT_FROM_NUMBER'),
+            'default_from_sid' => env('TWILIO_DEFAULT_FROM_SID'),
+            'account_sid' => env('TWILIO_ACCOUNT_SID'),
+            'auth_token' => env('TWILIO_AUTH_TOKEN'),
+        ]
+    ];
