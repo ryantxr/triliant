@@ -5,6 +5,8 @@ For PHP, these APIs and corresponding SDK functions are not well documented.
 Some of the SDK code it downright difficult to follow.
 Many functions are poorly named.
 
+*This is an early dev version and isn't ready for general usage*
+
 This library is meant to be a cleaner and better documented wrapper.
 
 This library will support:
