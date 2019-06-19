@@ -39,3 +39,4 @@ Then
     composer update
 
 ## Laravel Integration
+
